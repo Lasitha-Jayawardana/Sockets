@@ -121,7 +121,8 @@ void loop() {
 
         // Send event        
         socketIO.sendEVENT(output);
-
+        //socketIO.sendBIN("binary data", len)
+        
         // Print JSON for debugging
         USE_SERIAL.println(output);
     }
